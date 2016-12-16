@@ -112,7 +112,7 @@
                 return b + c.replace(/\./g, '');
             })
             // remove first zero if exists(only is like 0001 and not 0.001)
-            value = value.replace(/^0([\d]+)$/, '$1')
+            value = value.replace(/^[0]+([\d]+)$/, '$1')
             // set new value
             element.val(value)
         });
