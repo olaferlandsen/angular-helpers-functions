@@ -1,4 +1,4 @@
-# Angular helpers functions, directives, factories, and another tricks
+# AngularJS(v1) helpers functions, directives, factories, and another tricks
 
 List of directives:
 -   **ngNumber**    - Accept integer and/or decimals on input.
